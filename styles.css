@@ -34,7 +34,7 @@ header {
     font-size: 24px;
     z-index: 1000;
     transition: opacity 0.3s ease;
-    opacity: 0;
+    opacity: 1;
 }
 
 .fab.visible {
