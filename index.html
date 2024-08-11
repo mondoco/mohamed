@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href='https://www.swalifebiotech.com/images/coll-06.png'type="image/x-icon">
+    <title>My Work</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <a href="#"class="logo"><span>Mohamed</span></a>
+        <nav class="navg">
+                <a class="h" href="#logos">Logos</a>
+                <a class="p" href="#ads">Ads</a>
+                <a class="s" href="#arts">Arts</a>
+        </nav>
+    </header>
+
+    <section class="portfolio-section logos">
+        <h2>Logo Designs</h2>
+        <div class="portfolio">
+            <div class="portfolio-item log">
+                <img src="logo (1).png" alt="Logo">
+                <p>Logo</p>
+            </div>
+            <div class="portfolio-item log">
+                <img src="logo (2).png" alt="Logo">
+                <p>Logo</p>
+            </div>
+            <div class="portfolio-item log">
+                <img src="logo (3).png" alt="Logo">
+                <p>Logo</p>
+            </div>
+            <div class="portfolio-item log">
+                <img src="logo (4).png" alt="Logo">
+                <p>Logo</p>
+            </div>
+            <div class="portfolio-item log">
+                <img src="logo (5).png" alt="Logo">
+                <p>Logo</p>
+            </div>
+            <div class="portfolio-item log">
+                <img src="logo (6).png" alt="Logo">
+                <p>Logo</p>
+            </div>
+            <div class="portfolio-item log">
+                <img src="logo (7).png" alt="Logo">
+                <p>Logo</p>
+            </div>
+            <div class="portfolio-item log">
+                <img src="logo (8).png" alt="Logo">
+                <p>Logo</p>
+            </div>
+            <div class="portfolio-item log">
+                <img src="logo (9).png" alt="Logo">
+                <p>Logo</p>
+            </div>
+            <!-- Add more logos as needed -->
+        </div>
+    </section>
+
+    <section class="portfolio-section ads">
+        <h2>Ad Campaigns</h2>
+        <div class="portfolio">
+            <div class="portfolio-item">
+                <img src="ad (1).png" alt="Ad">
+                <p>Win Ad</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="ad (2).png" alt="Ad">
+                <p>Tayar Ad</p>
+            </div>
+            <!-- Add more ad campaigns as needed -->
+        </div>
+    </section>
+
+    <section class="portfolio-section atrs">
+        <h2>drawing Designs</h2>
+        <div class="portfolio">
+            <div class="portfolio-item">
+                <img src="draw (1).png" alt="Banner">
+                <p>star</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="draw (2).png" alt="Banner">
+                <p>wednesday</p>
+            </div>
+            <!-- Add more banners as needed -->
+        </div>
+    </section>
+
+    <!-- Add more sections as needed -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Mohamed Osman. All rights reserved.</p>
+        </div>
+    </footer>
+    <a href="https://wa.me/+201018518566" class="fab" id="whatsapp-fab" target="_blank">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const fab = document.getElementById('whatsapp-fab');
+            const homeSection = document.getElementById('home');
+    
+            window.addEventListener('scroll', function() {
+                const homeSectionBottom = homeSection.offsetTop + homeSection.offsetHeight;
+                if (window.scrollY > homeSectionBottom) {
+                    fab.classList.add('visible');
+                } else {
+                    fab.classList.remove('visible');
+                }
+            });
+        });
+    </script>    
+</body>
+</html>
+
