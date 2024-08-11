@@ -64,7 +64,7 @@ header {
 }
 
 .navg a {
-    color: #008f3c;
+    color: #006267;
     text-decoration: none;
     font-size: 1.1em;
     font-weight: 600;
@@ -289,12 +289,14 @@ h1 {
     margin: 0 auto;
     max-width: 1200px;
 }
-
+#logos{
+    padding: 80px 20px;
+}
 .portfolio-section h2 {
     text-align: left;
     margin-bottom: 40px;
     font-size: 2rem;
-    color: #555;
+    color: #004f59;
     border-bottom: 2px solid #ddd;
     padding-bottom: 10px;
     font-weight: 600;
